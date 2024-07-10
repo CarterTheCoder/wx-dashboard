@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+}
+
+button {
+    background-color: #1a1a1a;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid black;
+    margin: 5px;
+    max-width: 25%;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: black;
+}
+
+img {
+    max-width: 95%;
+    height: auto;
+}

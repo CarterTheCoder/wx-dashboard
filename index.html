@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOAA Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="modeButton">Dark/Light Mode</button>
+
+    <main>
+        <div id="outlookContainer">
+            <h2>Convective<br>Outlooks</h2>
+
+            <img class="outlookImage" src="https://www.spc.noaa.gov/products/outlook/day1otlk.gif" alt="Day 1 Convective Outlook">
+
+            <img src="https://www.spc.noaa.gov/products/outlook/day2otlk_1730.gif" alt="Day 2 Convective Outlook">
+
+            <img src="https://www.spc.noaa.gov/products/outlook/day3otlk_0730.gif" alt="Day 3 Convective Outlook">
+        </div>
+
+        <div id="mesoscaleContainer">
+            <h2>
+                Mesoscale Disscussions
+                <br>
+                and
+                <br>
+                Storm Reports
+            </h2>
+
+            <img src="https://www.spc.noaa.gov/products/md/validmd.png" alt="Active Mesoscale Disscussions">
+            <img src="https://www.spc.noaa.gov/climo/reports/today.gif" alt="Today's Storm Reports">
+            <img src="https://www.spc.noaa.gov/climo/reports/yesterday.gif" alt="Yesterday's Storm Reports">
+        </div>
+
+        <div id="hazardsContainer">
+            <h2>
+                Hazards
+                <br>
+                and
+                <br>
+                Fire
+            </h2>
+
+            <img src="https://www.weather.gov/wwamap/png/US.png" alt="Current Hazards">
+            <img src="https://www.spc.noaa.gov/products/fire_wx/day1otlk_fire.gif" alt="Day 1 Fire Outlook">
+            <img src="https://www.spc.noaa.gov/products/fire_wx/day2otlk_fire.gif" alt="Day 2 Fire Outlook">
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+</html>
