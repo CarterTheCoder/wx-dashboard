@@ -25,7 +25,7 @@ div {
     align-items: center;
     border: 5px solid black;
     margin: 5px;
-    max-width: 25%;
+    max-width: 100%;
 }
 
 h2 {
@@ -37,4 +37,12 @@ h2 {
 img {
     max-width: 95%;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

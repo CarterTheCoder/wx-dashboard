@@ -1,10 +1,10 @@
-const body = document.body;
-const modeButton = document.getElementById('modeButton');
-let modeCookie = document.cookie;
+document.addEventListener("DOMContentLoaded", function() {
 
-document.addEventListener("DOMContentLoaded", function() { // Ensure DOM content is loaded before executing any Javascript
+  const body = document.body;
+  const modeButton = document.getElementById('modeButton');
+  let cookie = document.cookie;
 
-  function changeMode(modeArg) { // Function to change dark/light modes, reduces boilerplate code
+  function changeMode(modeArg) { // Function to change current color mode
   
     if (modeArg == 'dark') {
       document.cookie = 'mode=dark';
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() { // Ensure DOM content
       }
   });
 
-  if (modeCookie == 'mode=dark') { // Check what the user last set their light/dark mode to
+  if (cookie == 'mode=dark') { // Check what the user last set their light/dark mode to
     changeMode('dark');
     modeButton.innerText = 'Switch to Light Mode';
   } else {

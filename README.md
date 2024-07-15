@@ -4,7 +4,7 @@ wx-dashboard is a website that simplifies current, past, and future weather info
 
 # How do I use this?
 
-You can go to [carterthecoder.github.io/wx-dashboard](carterthecoder.github.io/wx-dashboard) or clone this repository and view the HTML file directly.
+You can go to [carterthecoder.github.io/wx-dashboard](https://carterthecoder.github.io/wx-dashboard) or clone this repository and view the HTML file directly.
 
 # Why?
 
